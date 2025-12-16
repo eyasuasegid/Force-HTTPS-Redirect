@@ -1,5 +1,4 @@
-# HTTPS Demo with Certificate Chain
-
+# Force HTTPS Redirect
 A powerful WiFi hotspot tool that demonstrates HTTPS interception using a proper SSL/TLS certificate chain. This tool creates a WiFi access point that intercepts and redirects all HTTP/HTTPS traffic to a custom landing page, perfect for security demonstrations and educational purposes.
 
 ## 🎯 Features
@@ -73,8 +72,8 @@ Or use an existing directory with HTML files.
 ### 5. Run the Demo
 
 ```bash
-chmod +x gg.sh
-sudo ./gg.sh
+chmod +x main.sh
+sudo ./main.sh
 ```
 
 The script will prompt you for:
@@ -87,7 +86,7 @@ The script will prompt you for:
 
 ### Running the Demo
 
-When you run `sudo ./gg.sh`, you'll be guided through setup with a beautiful structured interface.
+When you run `sudo ./main.sh`, you'll be guided through setup with a beautiful structured interface.
 
 ### What Happens
 
@@ -195,9 +194,9 @@ redirect/
 ├── README.md              # This file
 ├── system_deps.sh         # Install system dependencies
 ├── cert.sh                # Generate SSL certificates
-├── gg.sh                  # Main demo script
+├── main.sh                  # Main demo script
 ├── stop_perfect.sh        # Stop all services
-└── requirements.txt       # Package list (for reference)
+
 ```
 
 ## 🔧 Configuration
